@@ -1,0 +1,434 @@
+* {
+  box-sizing: border-box;
+  
+}
+[class*="wal-"] {
+  float: left;
+}
+@media only screen and (min-width: 768px) {
+  /* for Tablet */
+  .wal-1 {
+    width: 8.33%;
+  }
+  .wal-2 {
+    width: 16.66%;
+  }
+  .wal-3 {
+    width: 25%;
+  }
+  .wal-4 {
+    width: 33.33%;
+  }
+  .wal-5 {
+    width: 41.66%;
+  }
+  .wal-6 {
+    width: 50%;
+  }
+  .wal-7 {
+    width: 58.33%;
+  }
+  .wal-8 {
+    width: 66.66%;
+  }
+  .wal-9 {
+    width: 75%;
+  }
+  .wal-10 {
+    width: 83.33%;
+  }
+  .wal-11 {
+    width: 91.66%;
+  }
+  .wal-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* for Tablet */
+  .sec-wal-1 {
+    width: 8.33%;
+  }
+  .sec-wal-2 {
+    width: 16.66%;
+  }
+  .sec-wal-3 {
+    width: 25%;
+  }
+  .sec-wal-4 {
+    width: 33.33%;
+  }
+  .sec-wal-5 {
+    width: 41.66%;
+  }
+  .sec-wal-6 {
+    width: 50%;
+  }
+  .sec-wal-7 {
+    width: 58.33%;
+  }
+  .sec-wal-8 {
+    width: 66.66%;
+  }
+  .sec-wal-9 {
+    width: 75%;
+  }
+  .sec-wal-10 {
+    width: 83.33%;
+  }
+  .sec-wal-11 {
+    width: 91.66%;
+  }
+  .sec-wal-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 400px) {
+  /* for Tablet */
+  .third-wal-1 {
+    width: 8.33%;
+  }
+  .third-wal-2 {
+    width: 16.66%;
+  }
+  .third-wal-3 {
+    width: 25%;
+  }
+  .third-wal-4 {
+    width: 33.33%;
+  }
+  .third-wal-5 {
+    width: 41.66%;
+  }
+  .third-wal-6 {
+    width: 50%;
+  }
+  .third-wal-7 {
+    width: 58.33%;
+  }
+  .third-wal-8 {
+    width: 66.66%;
+  }
+  .third-wal-9 {
+    width: 75%;
+  }
+  .third-wal-10 {
+    width: 83.33%;
+  }
+  .third-wal-11 {
+    width: 91.66%;
+  }
+  .third-wal-12 {
+    width: 100%;
+  }
+}
+body {
+  /*  background-image: url("./images/jpg/wall (65).jpg");  */
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*......................................................................................................*/
+.boss-div-1 {
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  clear: both;
+  background: black;
+  border-bottom: dotted 0px deepskyblue;
+  transition: border-bottom 2s, border-radius 1s;
+}
+.boss-div-1:hover {
+  border-bottom: dashed 4px deepskyblue;
+  border-radius: 40px;
+}
+
+.img-1 {
+  width: 60px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.ul-1 {
+  display: flex;
+  float: right;
+}
+.section-2 {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+.ul-1 li {
+  color: deepskyblue;
+  list-style-type: none;
+  margin-right: 0px;
+  margin-top: 5px;
+  font-size: 170%;
+  font-family: cursive;
+  text-shadow: 0px 0px 5px black;
+  animation: li 2s 1 forwards;
+}
+@keyframes li {
+  100% {
+    margin-right: 30px;
+  }
+}
+.ul-1 li a {
+  color: deepskyblue;
+  text-decoration: none;
+}
+.ul-1 li a:link {
+  color: rgb(0, 162, 255);
+}
+.ul-1 li a:hover {
+  color: red;
+  font-size: 120%;
+}
+.ul-1 li a:visited {
+  color: deepskyblue;
+}
+.ul-1 li a:active {
+  color: rgb(95, 255, 2);
+}
+.footer-first {
+  color: deepskyblue;
+  height: 100%;
+  margin-right: 2%;
+  margin-top: 5%;
+  background-color: black;
+  font-family: cursive;
+  box-shadow: 1px 1px 10px black;
+  display: flex;
+}
+.li-button {
+  color: deepskyblue;
+  font-size: 120%;
+  font-family: cursive;
+  background-color: black;
+  margin-right: 0px;
+  margin-top: -10px;
+}
+
+/*..........................................................................................*/
+.boss-div-2 {
+  color: deepskyblue;
+  font-family: cursive;
+  font-size: 6vw;
+  margin-top: 150px;
+  margin-left: 15%;
+  transition: text-shadow 3s, font-size 3s, letter-spacing 3s, initial-letter 3s;
+  animation: wel 3s 1 alternate;
+}
+.boss-div-2:hover {
+  text-shadow: 0px 40px 50px deepskyblue;
+  font-size: 9vw;
+  letter-spacing: 5px;
+}
+.boss-div-2::first-letter {
+  font-size: 150%;
+  color: red;
+}
+@keyframes wel {
+  90% {
+    transform: translateX(30%);
+  }
+}
+.boss-div-3::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.boss-div-4::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/*
+.section-3 {
+} */
+.section-3 p {
+  text-align: center;
+  color: deepskyblue;
+}
+/*
+.section-4 {
+} */
+.section-4 img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 5%;
+  transition: box-shadow 2s, border-radius 2s, transform 2s;
+}
+.section-4 img:hover {
+  box-shadow: 0px 0px 100px red;
+  border-radius: 40px;
+  transform: scale(1.1, 1.1);
+}
+
+.section-5 h1 {
+  text-indent: 10px;
+  color: deepskyblue;
+  margin-left: 8%;
+  transition: color 1s;
+}
+.section-5 h1:hover {
+  color: red;
+}
+.section-5 p {
+  text-align: center;
+  text-transform: upper-alpha;
+  margin-left: 8%;
+  transition: color 1s;
+}
+.section-5 p:hover {
+  color: rgb(255, 0, 0);
+}
+.section-5 .sub-section-1 {
+  width: 40%;
+  float: left;
+  color: deepskyblue;
+  margin-left: 8%;
+}
+.section-5 .sub-section-1 h3 {
+  text-indent: 10px;
+  transition: color 1s;
+}
+.section-5 .sub-section-1 h3:hover {
+  color: red;
+}
+.section-5 .sub-section-2 {
+  width: 40%;
+  float: right;
+  color: deepskyblue;
+  margin-left: 8%;
+}
+.section-5 .sub-section-2 h3 {
+  text-indent: 10px;
+  transition: color 1s;
+}
+.section-5 .sub-section-2 h3:hover {
+  color: red;
+}
+.section-5 .sub-section-2 .h3 a {
+  color: red;
+  transition: color 1s;
+}
+.section-5 .sub-section-2 .h3 a:hover {
+  color: deepskyblue;
+}
+
+/*..................................................................................*/
+.boss-div-4 {
+  width: 100%;
+}
+/*..............................*/
+.boss-div-4 h1 {
+  margin-left: 40%;
+  color: deepskyblue;
+  font-size: 6vw;
+  font-family: cursive;
+  transition: font-size 1s, transform 3s;
+}
+.boss-div-4 h1:hover {
+  font-size: 8vw;
+  transform: translateX(-20%);
+}
+.boss-div-4 h1::first-letter {
+  color: red;
+  font-size: 7vw;
+}
+
+/*...............................*/
+.boss-div-4 .section-6 {
+  opacity: 0.4;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px black;
+  transition: opacity 1s, background-color 1s, border-radius 1s, box-shadow 1s,
+    transform 1s;
+}
+.boss-div-4 .section-6:hover {
+  opacity: 1;
+  background-color: rgb(8, 8, 8);
+  border-radius: 40px;
+  box-shadow: 0px 0px 40px red;
+  transform: scale(1.2, 1.2);
+}
+@keyframes service1 {
+  90% {
+    margin-top: -6%;
+  }
+}
+
+.boss-div-4 .section-6 h2 {
+  color: red;
+  margin-left: 5%;
+}
+.boss-div-4 .section-6 p {
+  color: deepskyblue;
+  margin-left: 20%;
+}
+
+/*...............................*/
+.boss-div-4 .section-7 {
+  opacity: 0.4;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px black;
+  transition: opacity 1s, background-color 1s, border-radius 1s, box-shadow 1s,
+    transform 1s;
+}
+.boss-div-4 .section-7:hover {
+  opacity: 1;
+  background-color: rgb(8, 8, 8);
+  border-radius: 40px;
+  box-shadow: 0px 0px 40px red;
+  transform: scale(1.2, 1.2);
+}
+@keyframes service2 {
+  90% {
+    margin-top: -3%;
+  }
+}
+.boss-div-4 .section-7 h2 {
+  color: red;
+  margin-left: 5%;
+}
+.boss-div-4 .section-7 p {
+  color: deepskyblue;
+  margin-left: 20%;
+}
+
+/*...............................*/
+.boss-div-4 .section-8 {
+  opacity: 0.4;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px black;
+  transition: opacity 1s, background-color 1s, border-radius 1s, box-shadow 1s,
+    transform 1s;
+}
+.boss-div-4 .section-8:hover {
+  opacity: 1;
+  background-color: rgb(8, 8, 8);
+  border-radius: 40px;
+  box-shadow: 0px 0px 40px red;
+  transform: scale(1.2, 1.2);
+}
+@keyframes service3 {
+  90% {
+    margin-top: -2%;
+  }
+}
+.boss-div-4 .section-8 h2 {
+  color: red;
+  margin-left: 5%;
+}
+.boss-div-4 .section-8 p {
+  color: deepskyblue;
+  margin-left: 20%;
+}

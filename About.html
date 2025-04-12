@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta author="Henok Giz" content="4K Wallpaper" />
+    <meta
+      keyword="Wallpaper"
+      content="Wallpaper,4k,3k,2k,1k,images,pictures,frame,log"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="StyleSheet" href="About.css" />
+    <title>Document</title>
+  </head>
+  <body id="body-1">
+    <div class="boss-div-1 wal-12 sec-wal-12 third-wal-12">
+      <section class="section-1 wal-4 sec-wal-4">
+        <img class="img-1" src="./gif/gif (53).gif" />
+      </section>
+
+      <section class="section-2 wal-8 sec-wal-8">
+        <ul class="ul-1">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Main.html">Main</a></li>
+          <li>
+            <button
+              class="li-button"
+              id="darr"
+              onclick="changeBackground()"
+              ondblclick="changeBackgroundTwo()"
+            >
+              &Delta;
+            </button>
+          </li>
+        </ul>
+    </section>
+      <h1 class="boss-div-2" onclick="OfarMusicPlay()" ondblclick="OfarMusicPause()">
+        <i><e>{Welcome}</e></i>
+        <span>>>> </span>
+      </h1>
+
+<div class="boss-div-3">
+    <section class ="section-3 wal-12 sec-wal-12 third-wal-12">   <p> <p> <strong> <em> I 'm creative Front-end Developer based in Ethiopia. I'm Very Passionate and dedicated to my work.With few years experience as Front-end Developer.
+        <br> I have acquired the skills necessary to build great appealing. and premium websites that meet the latest web standards. </p>
+                 <p> Detail-orientated Web Developer adept at interpreting blueprints,working with others, and meeting production deadlines.<br>
+                 Skilled at quickly learning new technologies.adn machinery.<br>
+                 Self-motivated with strong organizational and time management abillities.<br>
+                 Most importantly, I'm constantly trying to learn new skills to improve myself and my work. </p> </em> </strong>
+                 </p> 
+                </section>
+    <section  class="section-4 wal-3 sec-wal-3"> <img src ="./images/jpg/p (1).jpg" alt ="Content Error" /> 
+    </section>
+    <section class ="section-5 wal-9 sec-wal-9"> 
+        <h1 > <em> <b> <i> Front-End and Desktop Apps Developer </i> </b> </em> </h1>
+               <p > <strong> <em> I knew, I was hooked into the world of software development.Since then, I have been absserbed with the idea of using software to solve practical problems. <em> </strong> </p>
+               <section class="sub-section-1">
+                  <h3> <b> My Name : </b> <em> <var> Henok Gizachew  </var> </em>  </h3>		
+                           <h3> <b> Skill-Content : </b> <em> <var> Front-End development  </var> </em>  </h3>	
+                                   <h3> <b> Phone : </b> <em> <var> +251-979 125 101  </var> </em>  </h3>	
+                                           <h3> <b> City : </b> <em> <var> Wukro,Tigray,Ethiopia  </var> </em>  </h3>	
+               </section>
+             <section  class="sub-section-2">
+                  <h3> <b> Age : </b> <em> <var> 17  </var> </em>  </h3>		
+                           <h3> <b> Quick Learner : </b> <em> <var> Definitly,Yes  </var> </em>  </h3>	
+                                   <h3 class="h3-1"> <b> Email : </b> <em> <var><a href ="mailto:Henok71727@gmail.com"> Henok71727@gmail.com </a>  </var> </em>  </h3>	
+                                           <h3> <b> Freelance : </b> <em> <var> Nope,Yet  </var> </em>  </h3>	
+             </section>
+    </section>
+            </div>
+ <div class="boss-div-4"  onmouseover="Onload()" onmouseout="OnloadStop()"> <h1> Services </h1>
+    <section id="sec-6" class="section-6 wal-4 sec-wal-4">
+                <h2> Front-End </h2>
+                <p> Wonderfull and flexable website with<br> increadble css designing and JavaScript typing </p>
+    </section>
+    <section id="sec-7" class="section-7 wal-4 sec-wal-4">
+                <h2> Desktop-App </h2>
+                <p> Creative Desktop-Apps development with<br> pure knowledge of java </p>
+    </section>
+    <section id="sec-8" class="section-8 wal-4 sec-wal-4">
+                <h2> Frame-Works </h2>
+                <p> A capablity of using powerfull frame-works<br> and typign compleax codes </p>
+    </section>
+ </div>
+    <audio id="holdMusic" autoplay title="play">
+      <source
+        src="ascent-braam-magma-brass-d-cinematic-trailer-sound-effect-222269.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <audio id="playMe" autoplay title="pause">
+        <source
+          src="Ofar.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+    <script>
+      const background = document.getElementById("body-1");
+      const holdTheMusic = document.getElementById("holdMusic");
+      const playOfar = document.getElementById('playMe');
+      const webOnload1 = document.getElementById('sec-6');
+      const webOnload2 = document.getElementById('sec-7');
+      const webOnload3 = document.getElementById('sec-8');
+      function changeBackground() {
+        background.style.background = "linear-gradient(to right,blue,black)"
+      }
+      function changeBackgroundTwo() {
+        background.style.cssText = "background:black";
+      }
+      function playMusic() {
+        holdTheMusic.play();
+      }
+      function pauseMusic() {
+        holdTheMusic.pause();
+      }
+      function OfarMusicPlay() {
+        playOfar.play();
+      }
+      function OfarMusicPause() {
+        playOfar.pause();
+      }
+      function Onload() {
+         webOnload1.style.cssText = "  animation: service1 3s 1 backwards "; 
+         webOnload2.style.cssText = "  animation: service2 3s 1 backwards "; 
+         webOnload3.style.cssText = "  animation: service3 3s 1 backwards "; 
+      }
+      function OnloadStop() {
+         webOnload1.style.cssText = "  animation: servicckwards "; 
+         webOnload2.style.cssText = "  animation: servicwards "; 
+         webOnload3.style.cssText = "  animation: servicckwards "; 
+      }
+    </script>
+  </body>
+</html>

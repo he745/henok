@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes vi {
+        90% {
+          transform: translate(0.4);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <video controls class="vid" id="vid">
+      <source src="Words_usage(18).mp4" type="video/mp4" />
+    </video>
+    <caption>
+      <button onclick="play()">Play</button>
+      <button onclick="pause()">Pause</button>
+    </caption>
+
+    <script>
+      var video = document.getElementById("vid");
+      const play = () => {
+        video.play();
+        video.style.boxShadow = "2px 2px 30px black";
+        video.style.animation = "vi 5s infinite";
+      };
+      const pause = () => {
+        video.pause();
+      };
+    </script>
+  </body>
+</html>
